@@ -209,5 +209,6 @@ If you'd like to hear a short update on future actions following this event. Cha
 
 Credits and references:
 
-[Chaofan Shou](https://twitter.com/shoucccc/status/1685688647637725184) whose twitter post pointed me in the right direction to look into the vyper compiler codebase.
-[ConsenSys Diligence]()'s best practice section on cross-function reentrancy whose code I used as the inspiration for the Vyper code example.
+- [Chaofan Shou](https://twitter.com/shoucccc/status/1685688647637725184) whose twitter post pointed me in the right direction to look into the vyper compiler codebase.
+- [ConsenSys Diligence]()'s best practice section on cross-function reentrancy whose code I used as the inspiration for the Vyper code example.
+- [Joshua T. Riley](https://twitter.com/jtriley_eth)(jtriley) for proof reading this. <3
