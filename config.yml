@@ -1,0 +1,108 @@
+baseURL: https://0xsomnus.github.io/
+languageCode: en-us
+title: Sleepy's Dreams
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Sleepy's Dreams
+  description: "Sleepy's dreams and ramblings"
+  keywords: [Blog, Blockchain, Ethereum, Security, Personal]
+  images: [images/sleepy_mag.png]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    disableFingerprinting: true
+    favicon: favicon/favicon.ico
+    favicon16x16: favicon/favicon-16x16.png
+    favicon32x32: favicon/favicon-32x32.png
+    apple_touch_icon: favicon/apple-touch-icon.png
+    safari_pinned_tab: favicon/safari-pinned-tab.svg
+
+  label:
+    text: "Home"
+    icon: /favicon/apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Sleepy's Dreams
+    subtitle: Shenanigans both onchain and in cyberspace
+    imageUrl: images/sleepy_mag.jpg
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: self portrait
+    buttons:
+      - name: Posts
+        url: posts
+    #  - name: Works
+    #    url: works
+
+  # home-info mode
+  # homeInfoParams:
+  #   Title: "Hi there \U0001F44B"
+  #   Content: Welcome to my blog
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/0xsomnus"
+    - name: github
+      url: "https://github.com/0xsomnus"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 10
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
