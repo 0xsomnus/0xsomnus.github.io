@@ -1,5 +1,5 @@
 ---
-title: "Vyper Nonreentrant Bypass"
+title: "0day: Vyper nonreentrant lock bypass, enabling cross function reentrancy"
 date: 2023-08-02T01:31:00+03:00
 draft: true
 ---
@@ -10,7 +10,7 @@ If you're looking for post mortems of protocols exploited with this vulnerabilit
 
 With that out of the way, let's dive into the bug.
 
-Vyper contracts compiled with versions 2.1.5 - 0.3.0 are all affected by this vulnerability.
+Vyper contracts compiled with versions 0.2.15 - 0.3.0 are all affected by this vulnerability.
 
 This vulnerability was introduced in this [pull request](https://github.com/vyperlang/vyper/pull/2391/files) in the file `data_positions.py`, lines 28 to 35 as a fix to a previous issue. 
 
@@ -198,10 +198,10 @@ Note: This is written by an outside observer with limited understanding of the c
 
 I would like to note that this bug was introduced back when the vyper team was just one active developer and they have evolved since then with a much more robust security process and more contributors. However, we can always improve on that and I invite you to join the effort.
 
-[GitHub](https://github.com/vyperlang/vyper) - obvious what this is for
-[Discord](https://discord.gg/929gyFWdad) - for comms, support, contribution discussion etc
-[Twitter/X](https://twitter.com/vyperlang)
-[Docs](https://docs.vyperlang.org/en/stable/)
+- [GitHub](https://github.com/vyperlang/vyper) - obvious what this is for
+- [Discord](https://discord.gg/929gyFWdad) - for comms, support, contribution discussion etc
+- [Twitter/X](https://twitter.com/vyperlang)
+- [Docs](https://docs.vyperlang.org/en/stable/)
 
 Special shout out to the vyper team(particularly [Charles Cooper](https://twitter.com/big_tech_sux)) for maintaining a beautiful smart contract language that I'd love to see more of in protocol code. It would save me a lot of neurons and energy to review over "optimised" alternatives. Thanks to all the white hats that worked together with them to white hack funds in affected protocols including [pcaversaccio](https://twitter.com/pcaversaccio), [0xaddi](https://twitter.com/0xaddi), coffeebabe and many more. I wasn't privvy to this information so I apologise if you were left out. <3
 
