@@ -1,7 +1,12 @@
 ---
 title: "0day: Vyper nonreentrant lock bypass, enabling cross function reentrancy"
 date: 2023-08-02T01:31:00+03:00
-draft: true
+draft: false
+tags: 
+- Vyper
+- Security
+- Reentrancy
+- Ethereum
 ---
 
 On Sunday, 30th July, tragedy struck as a vyper compiler bug was dug up from the past. This document is intended as a technical educational resource to demystify exactly what happened on the compiler side only ahead of the Vyper team's official post mortem for impatient individuals such as myself.
