@@ -6,7 +6,7 @@ My interests currently lie in smart contract dev and security, MEV, and a little
 
 I've been in the Ethereum smart contract security industry for ~2 years now. I started learning about security and pentesting in general in August 2021 and Ethereum security specifically in November 2021. Here's a short summary of what I've done professionally.
 
-- Security Researcher/Auditor at [ConsenSys Diligence](https://consensys.io/diligence/) - January 2022 to February 2023
+- Security Researcher/Auditor at [ConsenSys Diligence](https://consensys.io/diligence/), recruited fresh out of high school - January 2022 to February 2023
 - Security Researcher at [Spearbit](https://spearbit.com/) to April 2022 - Present (Contractor, currently inactive)
 - Security Advisor at [Vulcanic Labs](https://twitter.com/vulcaniclabs) - May 2023 to March 2024 (Contractor)
 - Stealth Founder - June 2023 to April 2024 (Two security adjacent projects(on pause) and various side material)
