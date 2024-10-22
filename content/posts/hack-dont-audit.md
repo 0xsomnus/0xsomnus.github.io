@@ -23,7 +23,7 @@ Additional note:
 
 Some people even straight up use an actual checklist like the [SCSVS](https://github.com/ComposableSecurity/SCSVS) or [solcurity](https://github.com/transmissions11/solcurity). Those are the worst offenders because relying on an actual checklist over heuristics adds overhead and uses up energy that is better spent on finding unique bugs. Leave the checklist to the developers.
 
-**The Hacker's Approach**
+#### The Hacker's Approach
 
 To level up, you need to think in invariants alongside your heuristics. What does that mean? Identify properties that must hold true based on the developers' intentions, then reason about how those could be broken. This could be due to a mismatch between intentions and the actual implementation.
 
@@ -35,7 +35,7 @@ Hacking is about finding clever ways to bypass rules. Looking at said rules and 
 
 In many ways, it's about being a rebel. Rebelling against the machine, the code's law. Sorry, I'm getting borderline religious here :D
 
-**Case Study: The Poly Network Hack**
+#### Case Study: The Poly Network Hack
 
 A perfect example of this in practice is the Poly Network hack. It's still a favourite exploit of mine because of it's ingenuity. I'd write a poem about it if I could but in short, it's the very epitome of what I believe a hack is. 
 
@@ -52,14 +52,14 @@ All that was left was forging an input that matched the target func sig. Somethi
 
 As hackers, our goal is to grok a system, challenge the assumptions it presents and try to trick it into doing what it wasn't intended to, not to simply go through a checklist. Some may argue that the hacker approach lacks comprehensiveness but if you do it right, it's even more comprehensive than anything else out there when it comes to manual review.
 
-**Recap**
+#### Recap
 
 1. Grok the system fully, diving into any and all parts. As an example, don't shy away from inline assembly.
 2. Find the code's assumptions/invariants and try to break them.
 3. Trusting abstractions is the mind killer. Developers trust abstractions and trust YOU to verify them.
 4. Don't assume dependencies and integrations are secure or done right.
 
-**Parting Advice**
+#### Parting Advice
 
 Always approach code thinking there's an issue waiting for you. Remember, developers are human and make mistakes. Go in with the mindset that you're at least on their level of proficiency. Ignore thoughts like "it's too hard" or "I'm not smart enough for this." Challenge yourself, keep learning, and never give up. The results will be worth it.
 
