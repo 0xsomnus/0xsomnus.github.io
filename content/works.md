@@ -1,22 +1,22 @@
 # About Me
 
-Hi, I'm Sleepy aka 0xsomnus. I'm a 20 yo hacker and tinkerer.
+hi, you may know me as sleepy, somnus or even lavender_overflow.
 
-My interests currently lie in smart contract dev and security, MEV, and a little smidge of storytelling through CTFs and games.
+i'm 20 and i like dumb pieces of restrained code named smart contracts :3. i also like to hack things (smart contracts included). i'm a privacy maxi.
 
-I've been in the Ethereum smart contract security industry for ~2 years now. I started learning about security and pentesting in general in August 2021 and Ethereum security specifically in November 2021. Here's a short summary of what I've done professionally.
+i've been hacking (professionally) for ~3 years now. here are some cool places i worked at:
 
-- Security Researcher/Auditor at [ConsenSys Diligence](https://consensys.io/diligence/), recruited fresh out of high school - January 2022 to February 2023
-- Security Researcher at [Spearbit](https://spearbit.com/) to April 2022 - Present (Contractor, currently inactive)
-- Security Advisor at [Vulcanic Labs](https://twitter.com/vulcaniclabs) - May 2023 to March 2024 (Contractor)
-- Stealth Founder - June 2023 to April 2024 (Two security adjacent projects(on pause) and various side material)
+- security auditor at [ConsenSys Diligence](https://consensys.io/diligence/), recruited fresh out of high school - jan 2022 to feb 2023
+- security researcher at [Spearbit](https://spearbit.com/) april 2022 - present (contractor, currently inactive)
+- security advisor at [Vulcanic Labs](https://twitter.com/vulcaniclabs) - may 2023 to mar 2024
+- stealth founder (read unemployed :p) - jun 2023 to april 2024 (two security adjacent projects (on pause) and various side material)
 
-I'm also currently offering security auditing and consulting services both independently and as part of the teams I'm currently affiliated with. Please contact me via X for any queries.
+i do consulting at [plainshift](https://plainshift.io/), where i am a cofounder.
 
-If you'd like to see a sample of my work. I've made a few reports public on my GitHub. Unfortunately, this excludes my work in Diligence as the reports have my real world identity on them.
+interested in learning smart contract security?
 
-Interested in learning smart contract security?
+i wrote a guide a couple years ago on what to learn in a semi-structured format. while outdated, it is still a solid foundation today.
 
-I wrote a guide a couple years ago on what to learn in a semi-structured format. While outdated, it is still a solid foundation today.
+find it [here](https://medium.com/immunefi/hacking-the-blockchain-an-ultimate-guide-4f34b33c6e8b)
 
-Find it [here](https://medium.com/immunefi/hacking-the-blockchain-an-ultimate-guide-4f34b33c6e8b)
+also join [skidsdao](https://discord.gg/vJUDgxcBn2), that's the best way to reach me if you'd like my help learning. i'm VERY busy these days though so there's a decent chance i might not have the time :(
