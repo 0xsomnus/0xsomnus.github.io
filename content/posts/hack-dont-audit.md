@@ -9,6 +9,10 @@ tags:
 - Auditing
 ---
 
+![image](../../static/images/said-the-stars.jpg)
+
+*“Look up.” Said the Stars “And all your dreams will reveal themselves.” - Yuumei*
+
 Most new auditors and security researchers struggle to find unique vulnerabilities. Why? Simply put, they're auditors, not hackers. At the core, they're approaching the task with the wrong mindset.
 
 Today's security education outside apprenticeships is essentially a spoon-feeding of known vulnerabilities. Students learn how vulnerabilities work and the patterns behind them, but not how to think about finding new ones. This creates what I call the "auditor cognitive bias" - a sort of mental checklist approach to security assessment.
