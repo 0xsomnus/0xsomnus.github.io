@@ -1,4 +1,13 @@
-# Hack, don't just audit.
+---
+title: "Hack, don't just audit"
+date: 2024-10-22T22:21:00+03:00
+draft: false
+tags: 
+- Hacking
+- Security
+- Code Review
+- Auditing
+---
 
 Most new auditors and security researchers struggle to find unique vulnerabilities. Why? Simply put, they're auditors, not hackers. At the core, they're approaching the task with the wrong mindset.
 
